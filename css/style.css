@@ -449,14 +449,14 @@ main{
 
   }
 
-  @media screen  and (max-width: 768px) {
+  @media screen  and (max-width: 972px) {
     #footer_content{
         grid-template-columns: repeat(2,1fr);
         gap: 2rem;
     }   
   }
   
-  @media screen  and (max-width: 426px) {
+  @media screen  and (max-width: 544px) {
     #footer_content{
         grid-template-columns: repeat(1,1fr);
         padding: 3rem 2rem;
